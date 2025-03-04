@@ -23,6 +23,8 @@ public class StandAloneTest {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		
 		driver.manage().window().maximize();
+		
+//		Added comments to check trigger works correctly
 //		1. Get the webpage 
 		driver.get("https://rahulshettyacademy.com/client");
 		
